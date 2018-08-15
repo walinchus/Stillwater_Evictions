@@ -80,16 +80,22 @@ def scrape_table(root):
             #idno=idno+1
             #record['ID'] = idno 
             print record, '------------'
-     '''counts = root.cssselect("div.CountsContainer")
-        countstotal = len(counts)
-        print "total number of counts:", countstotal
+        
+        
+        
+        #counts = root.cssselect("div.CountsContainer")
+        #countstotal = len(counts)
+        #print "total number of counts:", countstotal
+        
+        
         #countsrange = range(0, countstotal+1)
         #for count in countsrange:
-        id=0
-        for count in counts:
-            id+=1
-            if counts: 
-                record['Count'+str(id)] = count.text_content()'''
+        
+        #id=0
+        #for count in counts:
+            #id+=1
+            #if counts: 
+                #record['Count'+str(id)] = count.text_content()'''
             '''rows = count.cssselect('div.CountsContainer tr')
             if rows:
                 id = 0
