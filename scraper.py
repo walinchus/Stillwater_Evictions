@@ -56,7 +56,7 @@ def GetOklahomaStateCases():
         for CaseEndingNumber in ListOfCaseEndingNumbers:
             for year in years:
                 for severity in CrimeSeverity:
-                    yield 'http://www.oscn.net/dockets/GetCaseInformation.aspx?db=%s&number=payne-SC-%s' % (county, severity, year, CaseEndingNumber)
+                    yield 'http://www.oscn.net/dockets/GetCaseInformation.aspx?db=%s&number=payne-SC-%s' % (year, CaseEndingNumber)
 
 def scrape_table(root):
     #create a record to hold the data
